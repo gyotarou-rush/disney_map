@@ -13,3 +13,866 @@
  *= require_tree .
  *= require_self
  */
+div{
+  width: 1411px;
+  position: relative;
+}
+img{
+  width: 100%;
+}
+
+.menu{
+  color: white;
+  padding: 10px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.menu a:visited {
+  color: white;
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+
+li{
+  background-color: #f00;
+  display: inline;
+  width: 100px;
+  height: 300px;
+}
+
+.trbtn{
+  width: 160px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #1e90ff;
+  color: #ffffff;
+  padding: 1px;
+  position: relative;
+  font-size: 100%;
+}
+
+.shipbtn{
+  width: 160px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffa500;
+  color: #ffffff;
+  padding: 1px;
+  position: relative;
+  font-size: 100%;
+}
+
+.spinbtn{
+  width: 160px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #008000;
+  color: #ffffff;
+  padding: 1px;
+  position: relative;
+  font-size: 100%;
+}
+
+.actbtn{
+  width: 160px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ff69b4;
+  color: #ffffff;
+  padding: 1px;
+  position: relative;
+  font-size: 100%;
+}
+
+.showbtn{
+  width: 160px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #00ffff;
+  color: #ffffff;
+  padding: 1px;
+  position: relative;
+  font-size: 100%;
+}
+
+.toiletbtn{
+  width: 160px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #000000;
+  padding: 1px;
+  position: relative;
+  font-size: 100%;
+}
+
+.smokingbtn{
+  width: 160px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #5e5c5c;
+  color: #ffffff;
+  padding: 1px;
+  position: relative;
+  font-size: 100%;
+}
+
+.btmbtn{
+  width: 135px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #1e90ff;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1080px;
+  right: 1100px;
+  font-size: 70%;
+}
+
+.smbtn{
+  width: 125px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #1e90ff;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1330px;
+  right: 670px;
+  font-size: 70%;
+}
+
+.spmbtn{
+  width: 100px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #1e90ff;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 690px;
+  right: 200px;
+  font-size: 70%;
+}
+
+.stbtn{
+  width: 100px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #1e90ff;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 550px;
+  right: 330px;
+  font-size: 70%;
+}
+
+.gcbtn{
+  width: 125px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #1e90ff;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1050px;
+  right: 180px;
+  font-size: 70%;
+}
+
+.bmbtn{
+  width: 100px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #1e90ff;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 900px;
+  right: 270px;
+  font-size: 70%;
+}
+
+
+.jcbtn{
+  width: 100px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffa500;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 800px;
+  right: 960px;
+  font-size: 70%;
+}
+
+.wlbtn{
+  width: 125px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffa500;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 760px;
+  right: 980px;
+  font-size: 70%;
+}
+
+.mtbtn{
+  width: 145px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffa500;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1150px;
+  right: 860px;
+  font-size: 70%;
+}
+
+.potcbtn{
+  width: 80px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffa500;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 560px;
+  right: 830px;
+  font-size: 70%;
+}
+
+.iasbtn{
+  width: 120px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffa500;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1250px;
+  right: 500px;
+  font-size: 70%;
+}
+
+.onbbtn{
+  width: 70px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffa500;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 750px;
+  right: 550px;
+  font-size: 70%;
+}
+
+.mibtn{
+  width: 125px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #008000;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 450px;
+  right: 400px;
+  font-size: 70%;
+}
+
+.bzbtn{
+  width: 125px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #008000;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 660px;
+  right: 400px;
+  font-size: 70%;
+}
+
+.batbbtn{
+  width: 70px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #008000;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 950px;
+  right: 100px;
+  font-size: 70%;
+}
+
+.ctsbtn{
+  width: 120px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #008000;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1350px;
+  right: 300px;
+  font-size: 70%;
+}
+
+.hhbtn{
+  width: 125px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #008000;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1180px;
+  right: 320px;
+  font-size: 70%;
+}
+
+.pnkbtn{
+  width: 110px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #008000;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1080px;
+  right: 470px;
+  font-size: 70%;
+}
+
+.mgrbtn{
+  width: 125px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #008000;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1120px;
+  right: 510px;
+  font-size: 70%;
+}
+
+.cfcbtn{
+  width: 90px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #008000;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1030px;
+  right: 620px;
+  font-size: 70%;
+}
+
+.dnbbtn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #008000;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1080px;
+  right: 720px;
+  font-size: 70%;
+}
+
+.htmbtn{
+  width: 130px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #008000;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1230px;
+  right: 700px;
+  font-size: 70%;
+}
+
+.swbtn{
+  width: 80px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #008000;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1010px;
+  right: 720px;
+  font-size: 70%;
+}
+
+.ptpbtn{
+  width: 80px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #008000;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1050px;
+  right: 780px;
+  font-size: 70%;
+}
+
+
+.tsybtn{
+  width: 70px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ff69b4;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1130px;
+  right: 1060px;
+  font-size: 70%;
+}
+
+.cnbtn{
+  width: 120px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ff69b4;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1330px;
+  right: 950px;
+  font-size: 70%;
+}
+
+.gfbtn{
+  width: 120px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ff69b4;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1100px;
+  right: 300px;
+  font-size: 70%;
+}
+
+.fthbtn{
+  width: 90px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ff69b4;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 900px;
+  right: 630px;
+  font-size: 70%;
+}
+
+.tdbtn{
+  width: 90px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ff69b4;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1100px;
+  right: 180px;
+  font-size: 70%;
+}
+
+.mnybtn{
+  width: 70px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ff69b4;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1180px;
+  right: 200px;
+  font-size: 70%;
+}
+
+.trybtn{
+  width: 90px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ff69b4;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 800px;
+  right: 800px;
+  font-size: 70%;
+}
+
+.wtrsbtn{
+  width: 130px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ff69b4;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1000px;
+  right: 960px;
+  font-size: 70%;
+}
+
+
+.trobtn{
+  width: 90px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #00ffff;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 850px;
+  right: 900px;
+  font-size: 70%;
+}
+
+.cbjbtn{
+  width: 90px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #00ffff;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 950px;
+  right: 850px;
+  font-size: 70%;
+}
+
+.fhmbtn{
+  width: 100px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #00ffff;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1030px;
+  right: 510px;
+  font-size: 70%;
+}
+
+.stebtn{
+  width: 100px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #00ffff;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 800px;
+  right: 400px;
+  font-size: 70%;
+}
+
+.til1btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 420px;
+  right: 730px;
+  font-size: 70%;
+}
+
+.til2btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 420px;
+  right: 570px;
+  font-size: 70%;
+}
+
+.til3btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 500px;
+  right: 770px;
+  font-size: 70%;
+}
+
+.til4btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 640px;
+  right: 890px;
+  font-size: 70%;
+}
+
+.til5btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 780px;
+  right: 980px;
+  font-size: 70%;
+}
+
+.til6btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 760px;
+  right: 870px;
+  font-size: 70%;
+}
+
+.til7btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 880px;
+  right: 780px;
+  font-size: 70%;
+}
+
+.til8btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 1000px;
+  right: 800px;
+  font-size: 70%;
+}
+
+.til9btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 980px;
+  right: 1100px;
+  font-size: 70%;
+}
+
+.til10btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 1180px;
+  right: 1100px;
+  font-size: 70%;
+}
+
+.til11btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 1220px;
+  right: 1000px;
+  font-size: 70%;
+}
+
+.til12btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 1280px;
+  right: 1150px;
+  font-size: 70%;
+}
+
+.til13btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 1400px;
+  right: 900px;
+  font-size: 70%;
+}
+
+.til14btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 1170px;
+  right: 700px;
+  font-size: 70%;
+}
+.til15btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 1100px;
+  right: 500px;
+  font-size: 70%;
+}
+
+.til16btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 1300px;
+  right: 300px;
+  font-size: 70%;
+}
+
+.til17btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 900px;
+  right: 420px;
+  font-size: 70%;
+}
+
+.til18btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 600px;
+  right: 520px;
+  font-size: 70%;
+}
+
+.til19btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #ffff00;
+  color: #0b0b0b;
+  padding: 1px;
+  position: absolute;
+  bottom: 940px;
+  right: 350px;
+  font-size: 70%;
+}
+
+.smo1btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #5e5c5c;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 720px;
+  right: 1020px;
+  font-size: 70%;
+}
+
+.smo2btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #5e5c5c;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 1000px;
+  right: 1050px;
+  font-size: 70%;
+}
+
+.smo3btn{
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  background-color: #5e5c5c;
+  color: #ffffff;
+  padding: 1px;
+  position: absolute;
+  bottom: 790px;
+  right: 270px;
+  font-size: 70%;
+}
+
